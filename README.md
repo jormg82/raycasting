@@ -7,8 +7,11 @@ Ray casting is a technique for rendering computer graphics. Basically the idea i
 ### simpleraycasting
 Without optimization, each beam is checked against all walls.
 
-### bspraycasting
+### simple3Draycasting
+Without optimization, each beam is checked against all walls.
+
+### TODO: bspraycasting
 A binary space partition tree (BSP) is used to rule out walls. The tree must be pre-compiled.
 
-### bsp3draycasting
+### TODO: bsp3draycasting
 3D scene rendering with collision detection.
